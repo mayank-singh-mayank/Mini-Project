@@ -1,0 +1,182 @@
+/*------------------------------------------------------------ page background-------------------------------------------------------- */
+
+/* body {
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: repeat-x;
+
+} */
+
+
+
+
+
+/* -------------------------------------------NAVBAR------------------------------------------  */
+
+
+
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+    float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .header-right {
+        float: none;
+    }
+}
+
+/* --------------------------------------------topic heading-------------------------------------- */
+
+div.example {
+    background-color: white;
+    padding: 20px;
+}
+
+@media screen and (min-width: 601px) {
+    div.example {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div.example {
+        font-size: 30px;
+    }
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #eb821a, 0 0 40px #eb821a, 0 0 50px #eb821a, 0 0 60px #eb821a, 0 0 70px #eb821a;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #43d835, 0 0 40px #43d835, 0 0 50px #43d835, 0 0 60px #43d835, 0 0 70px #43d835, 0 0 80px #43d835;
+    }
+}
+
+/* -------------------------------------------------IMAGES----------------------------------  */
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 25%;
+    max-width: 50%;
+    padding: 0 80px;
+}
+
+.column img {
+    margin-top: 50px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding: 5px;
+    width: 150px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+/* -----------------------------------------------------------------footer----------------------------------------------------------  */
+
+div.footer {
+    background-color: rgb(84, 195, 225);
+    padding: 20px;
+    margin: 10px;
+}
+h2{
+    color: #5035d8;
+}
+
+@media screen and (min-width: 601px) {
+    div.footer {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div.footer {
+        font-size: 30px;
+    }
+}
